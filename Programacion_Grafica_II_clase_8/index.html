@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esquiva los Meteoritos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="game-container">
+        <canvas id="gameCanvas" width="400" height="600"></canvas>
+        <div id="gameControls">
+            <button id="startBtn" onclick="startGame()">Iniciar Juego</button>
+            <button id="pauseBtn" onclick="pauseGame()">Pausar Juego</button>
+            <button id="resetBtn" onclick="resetGame()">Reiniciar Juego</button>
+        </div>
+        <div id="scoreBoard">
+            <span id="scoreText">Puntuación: 0</span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
